@@ -1,0 +1,134 @@
+body {
+  font-family: "Cairo", "Shadows Into Light", cursive, sans-serif; /* background-color: #121212; */
+  background-color: #102c0f;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 1000'%3E%3Cg %3E%3Ccircle fill='%23102C0F' cx='50' cy='0' r='50'/%3E%3Cg fill='%23133513' %3E%3Ccircle cx='0' cy='50' r='50'/%3E%3Ccircle cx='100' cy='50' r='50'/%3E%3C/g%3E%3Ccircle fill='%23163e16' cx='50' cy='100' r='50'/%3E%3Cg fill='%231a471a' %3E%3Ccircle cx='0' cy='150' r='50'/%3E%3Ccircle cx='100' cy='150' r='50'/%3E%3C/g%3E%3Ccircle fill='%231d511e' cx='50' cy='200' r='50'/%3E%3Cg fill='%23215b21' %3E%3Ccircle cx='0' cy='250' r='50'/%3E%3Ccircle cx='100' cy='250' r='50'/%3E%3C/g%3E%3Ccircle fill='%23246525' cx='50' cy='300' r='50'/%3E%3Cg fill='%23276f29' %3E%3Ccircle cx='0' cy='350' r='50'/%3E%3Ccircle cx='100' cy='350' r='50'/%3E%3C/g%3E%3Ccircle fill='%232b792d' cx='50' cy='400' r='50'/%3E%3Cg fill='%232e8331' %3E%3Ccircle cx='0' cy='450' r='50'/%3E%3Ccircle cx='100' cy='450' r='50'/%3E%3C/g%3E%3Ccircle fill='%23328e35' cx='50' cy='500' r='50'/%3E%3Cg fill='%23359939' %3E%3Ccircle cx='0' cy='550' r='50'/%3E%3Ccircle cx='100' cy='550' r='50'/%3E%3C/g%3E%3Ccircle fill='%2339a43d' cx='50' cy='600' r='50'/%3E%3Cg fill='%233daf41' %3E%3Ccircle cx='0' cy='650' r='50'/%3E%3Ccircle cx='100' cy='650' r='50'/%3E%3C/g%3E%3Ccircle fill='%2340ba45' cx='50' cy='700' r='50'/%3E%3Cg fill='%2344c549' %3E%3Ccircle cx='0' cy='750' r='50'/%3E%3Ccircle cx='100' cy='750' r='50'/%3E%3C/g%3E%3Ccircle fill='%2348d04d' cx='50' cy='800' r='50'/%3E%3Cg fill='%234cdc51' %3E%3Ccircle cx='0' cy='850' r='50'/%3E%3Ccircle cx='100' cy='850' r='50'/%3E%3C/g%3E%3Ccircle fill='%234fe755' cx='50' cy='900' r='50'/%3E%3Cg fill='%2353f35a' %3E%3Ccircle cx='0' cy='950' r='50'/%3E%3Ccircle cx='100' cy='950' r='50'/%3E%3C/g%3E%3Ccircle fill='%2357FF5E' cx='50' cy='1000' r='50'/%3E%3C/g%3E%3C/svg%3E");
+  background-attachment: fixed;
+  background-size: contain;
+}
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: auto;
+  width: 100%;
+}
+@media (min-width: 576px) {
+  .container {
+    width: 540px;
+  }
+}
+@media (min-width: 768px) {
+  .container {
+    width: 720px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 960px;
+  }
+}
+@media (min-width: 1200) {
+  .container {
+    width: 1140px;
+  }
+}
+@media (min-width: 1400) {
+  .container {
+    width: 1320px;
+  }
+} /* Start header */
+img {
+  max-width: 100%;
+}
+header .logo {
+  text-align: center;
+}
+header img {
+  width: 300px;
+  margin-top: 100px;
+  margin-bottom: 30px;
+} /* End header */
+
+section .container {
+  display: flex;
+  color: white;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+section .container p {
+  font-size: 14px;
+  color: white;
+  margin-bottom: 25px;
+  font-weight: bold;
+  line-height: 2;
+}
+/* Start call */
+
+.links .btns {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+  text-align: center;
+}
+.btns a {
+  display: flex;
+  justify-content: space-between;
+  text-decoration: none;
+  padding: 12px;
+  border-radius: 10px;
+  color: black;
+  font-weight: bold;
+  width: 243px;
+  background-color: #d8b914;
+  transition: 0.3s;
+  font-size: 20px;
+}
+.btns a:hover {
+  background: gold;
+  color: white;
+  filter: drop-shadow(0 0 10px #ffd700b8);
+  transform: scale(1.1);
+}
+.btns i {
+  font-size: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.whatsapp {
+  background: green;
+  /* filter: drop-shadow(0 0 10px #fffc00); */
+  color: #ffffffad;
+}
+
+.whatsapp:hover {
+  color: #25d366;
+}
+
+.instagram {
+  background: #3cae60;
+  /* filter: drop-shadow(0 0 10px #fffc00); */
+  color: #ffffffad;
+}
+
+.instagram:hover {
+  color: #25d366;
+}
+.store {
+  background: #000;
+  color: #3cae60 !important;
+}
