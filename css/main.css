@@ -78,7 +78,7 @@ section .container p {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 25px;
+  gap: 35px;
   text-align: center;
 }
 .btns a {
@@ -90,15 +90,27 @@ section .container p {
   color: black;
   font-weight: bold;
   width: 243px;
-  background-color: #d8b914;
+  background-color: green;
   transition: 0.3s;
+  color: white;
   font-size: 20px;
+  box-shadow: 8px 13px 20px #00000063;
+  border: #00000052 2px solid;
 }
 .btns a:hover {
   background: gold;
   color: white;
   filter: drop-shadow(0 0 10px #ffd700b8);
   transform: scale(1.1);
+}
+.btns a:hover {
+  background: gold;
+  color: black;
+  filter: drop-shadow(0 0 10px #ffd700b8);
+  transform: scale(1.1);
+}
+.btns a:hover i {
+  color: black;
 }
 .btns i {
   font-size: 28px;
@@ -109,26 +121,24 @@ section .container p {
   height: 50px;
   border-radius: 50%;
 }
-.whatsapp {
-  background: green;
-  /* filter: drop-shadow(0 0 10px #fffc00); */
-  color: #ffffffad;
-}
 
-.whatsapp:hover {
-  color: #25d366;
+.whatsapp {
+  /* background: green; */
+  /* filter: drop-shadow(0 0 10px #fffc00); */
+  color: #ffffffb5;
 }
 
 .instagram {
-  background: #3cae60;
+  /* background: #3cae60; */
   /* filter: drop-shadow(0 0 10px #fffc00); */
-  color: #ffffffad;
+  color: #ffffffb5;
 }
 
 .instagram:hover {
   color: #25d366;
 }
 .store {
-  background: #000;
-  color: #3cae60 !important;
+  /* background: #000; */
+  /* color: #3cae60 !important; */
+  color: #ffffffb5 !important;
 }
